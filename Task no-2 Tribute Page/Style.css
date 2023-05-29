@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+body {
+  background-color: #000;
+  width: 100%;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  min-height: 20vh; /*adjust the height of the page*/
+}
+.LOGO {
+  position: relative;
+  color: #fff;
+  background-color: #401314;
+  font-size: 40px;
+  text-decoration: none;
+  justify-content: center;
+  display: flex;
+  font-weight: 800;
+  letter-spacing: 2px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.DP {
+  padding: 10px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 600px;
+  margin: 0px auto;
+  border-radius: 20px;
+}
+
+section div h2 {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+}
+
+.intro {
+  max-width: fit-content;
+  margin: 0px 200px;
+  padding: 5px 25px 0px 25px;
+  color: #fff;
+}
+
+.intro h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.intro p {
+  font-family: serif;
+  margin: 0px 10px;
+  padding: 0 0px;
+  color: #fff;
+  font-size: 17px;
+  letter-spacing: 1px;
+}
+
+.nextpagebutton {
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.nextpage {
+  font-size: 30px;
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: #fff;
+  margin-top: 20px;
+}
+.nextpage:hover {
+  background-color: aqua;
+}
+
+.avengers {
+  color: #fff;
+}
+
+.one {
+  color: #fff;
+  text-align: center;
+  justify-content: center;
+  width: auto;
+  display: flex;
+  padding: 10px;
+}
+.movie {
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.moviename {
+  list-style: none;
+  position: absolute;
+  font-size: 40px;
+  padding: 20px;
+  margin: 0px auto;
+}
+
+.posters {
+  padding: 10px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 350px;
+  width: 450px;
+  margin: 0px auto;
+  border-radius: 20px;
+}
